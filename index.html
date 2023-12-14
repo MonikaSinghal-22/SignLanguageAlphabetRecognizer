@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONNX Model : Sign Language Alphabet Recognizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    
+</head>
+<body>
+    <div id="header-conatiner">
+        <h1>Sign Language Alphabet Recognizer</h1>
+    </div>
+    
+    <div id="video-container">
+        <video id="webcam-video" width="224" height="224" autoplay></video>
+    </div>
+
+    <!--<div id="image-container">
+        <img id="uploaded-image" width="400" height="400">
+    </div>-->
+
+    <div id="controls-container">
+        <button id="start-stop-btn">Start Webcam</button>
+        <!--<input type="file" id="upload-btn" accept="image/*">-->
+    </div>
+
+    <div id="prediction-container" style="display: none;">
+        <h2>Prediction:</h2><h2 id="prediction"></h2>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
