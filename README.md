@@ -9,7 +9,7 @@ Webcam-based Sign Language Alphabet Recognizer.
 
 Test:
 
-* Visit:
+* Visit: https://monikasinghal-22.github.io/SignLanguageAlphabetRecognizer/
 * Click Start webcam
 * Provide access to the webcam
 * Do hand gestures for prediction
